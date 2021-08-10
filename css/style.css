@@ -16,7 +16,7 @@ header nav {
   width: 60px;
 }
 .header-section {
-  background-image: url("/images/elon.jpg") ;
+  background-image: url("../images/elon.jpg") ;
   background-attachment: fixed;
   width: 100%;
   height: 600px;
@@ -46,7 +46,7 @@ header nav {
   border-bottom: 5px solid #00ffff;
 }
 .footer-section nav {
-  background-image: url("./images/elon-young.jpg");
+  background-image: url("../images/elon-young.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
