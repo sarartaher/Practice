@@ -1,11 +1,13 @@
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 80px;
   margin-bottom: 80px;
   background-color: rgb(186, 207, 214);
+  height: 100%;
 }
 header nav {
   background-color: #00bfff;
@@ -18,11 +20,12 @@ header nav {
 .header-section {
   background-image: url("../images/elon.jpg");
   background-attachment: fixed;
+  background-position: center top;
+  padding: 10em;
   width: 100%;
-  padding: 20em;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-
   border-radius: 18px;
 }
 .header-text {
@@ -50,7 +53,7 @@ header nav {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 6em;
+  padding: 5em;
   border-radius: 20px;
   background-attachment: fixed;
   opacity: 0.4;
@@ -63,8 +66,18 @@ header nav {
 .bio-header {
   background-image: url("../images/elon1.jpg");
   background-size: cover;
+  background-position: center right;
   background-repeat: no-repeat;
+  height: 100%;
   width: 100%;
   padding: 15em;
   border-radius: 12px;
+  margin-top: 90px;
+}
+
+@media only screen and (min-device-width: 400px) {
+  .div {
+    display: block;
+    width: 100%;
+  }
 }
